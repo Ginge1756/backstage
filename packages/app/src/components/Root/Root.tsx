@@ -62,18 +62,14 @@ export const Root = ({ children }: PropsWithChildren<{}>) => (
       <SidebarGroup label="Search" icon={<SearchIcon />} to="/search">
         <SidebarSearchModal />
       </SidebarGroup>
-      <SidebarDivider />
       <SidebarGroup label="Menu" icon={<MenuIcon />}>
         {/* Global nav, not org-specific */}
-        <SidebarItem icon={HomeIcon} to="catalog" text="Home" />
-        <SidebarItem icon={ExtensionIcon} to="api-docs" text="APIs" />
-        <SidebarItem icon={LibraryBooks} to="docs" text="Docs" />
-        <SidebarItem icon={CreateComponentIcon} to="create" text="Create..." />
+        <SidebarItem icon={HomeIcon} to="catalog" text='Catalog'  />
+        <SidebarItem icon={ExtensionIcon} to="api-docs" text='APIs'  />
+        <SidebarItem icon={LibraryBooks} to="docs" text='Documentation'  />
+        <SidebarItem icon={MapIcon} to="tech-radar" text='Tech Radar' />
+        <SidebarItem icon={CreateComponentIcon} to="create"  text='New resource' />
         {/* End global nav */}
-        <SidebarDivider />
-        <SidebarScrollWrapper>
-          <SidebarItem icon={MapIcon} to="tech-radar" text="Tech Radar" />
-        </SidebarScrollWrapper>
       </SidebarGroup>
       <SidebarSpace />
       <SidebarDivider />
