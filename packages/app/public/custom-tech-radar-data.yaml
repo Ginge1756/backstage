@@ -1,0 +1,138 @@
+entries:
+  - key: "docker"
+    title: "Docker"
+    quadrant: "Infrastructure"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "adopt"
+
+  - key: "kubernetes"
+    title: "Kubernetes"
+    quadrant: "Infrastructure"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "trial"
+
+  - key: "terraform"
+    title: "Terraform"
+    quadrant: "Infrastructure"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "assess"
+
+  - key: "ansible"
+    title: "Ansible"
+    quadrant: "Infrastructure"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "hold"
+
+  - key: "react"
+    title: "React"
+    quadrant: "Frameworks"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "adopt"
+
+  - key: "angular"
+    title: "Angular"
+    quadrant: "Frameworks"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "trial"
+
+  - key: "vue"
+    title: "Vue"
+    quadrant: "Frameworks"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "assess"
+
+  - key: "svelte"
+    title: "Svelte"
+    quadrant: "Frameworks"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "hold"
+
+  - key: "javascript"
+    title: "JavaScript"
+    quadrant: "Languages"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "adopt"
+
+  - key: "python"
+    title: "Python"
+    quadrant: "Languages"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "trial"
+
+  - key: "go"
+    title: "Go"
+    quadrant: "Languages"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "assess"
+
+  - key: "ruby"
+    title: "Ruby"
+    quadrant: "Languages"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "hold"
+
+  - key: "scrum"
+    title: "Scrum"
+    quadrant: "Process"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "adopt"
+
+  - key: "kanban"
+    title: "Kanban"
+    quadrant: "Process"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "trial"
+
+  - key: "pair-programming"
+    title: "Pair Programming"
+    quadrant: "Process"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "assess"
+
+  - key: "waterfall"
+    title: "Waterfall"
+    quadrant: "Process"
+    timeline:
+      - date: "2022-01-01"
+        ringId: "hold"
+
+# ... (you can continue in a similar fashion for entry4, entry5, etc.)
+
+rings:
+  - id: "assess"
+    name: "ASSESS"
+    color: "#C7BA00"
+  - id: "trial"
+    name: "TRIAL"
+    color: "#009EB0"
+  - id: "adopt"
+    name: "ADOPT"
+    color: "#5BA300"
+  - id: "hold"
+    name: "HOLD"
+    color: "#E09B96"
+
+quadrants:
+  - id: "Infrastructure"
+    name: "Infrastructure"
+  - id: "Frameworks"
+    name: "Frameworks"
+  - id: "Languages"
+    name: "Languages"
+  - id: "Process"
+    name: "Process"
