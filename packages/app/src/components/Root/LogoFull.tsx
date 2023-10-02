@@ -15,7 +15,7 @@ const LogoFull = () => {
 
   return (
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="300" height="125" viewBox="0 0 1000 480">
-<g transform="translate(-110,350) scale(0.2,-0.2)" fill="#0000ff" stroke="none">
+<g transform="translate(-122,350) scale(0.2,-0.2)" fill="#529dff" stroke="none">
 <path d="M2220 500 l0 -370 80 0 80 0 0 83 c0 71 3 87 20 102 11 10 22 16 24
 14 1 -2 29 -48 61 -101 l57 -98 100 0 99 0 -87 128 c-48 70 -96 138 -106 151
 -18 23 -18 24 35 83 28 33 69 80 90 104 l39 44 -99 -1 -98 0 -65 -81 -65 -82
